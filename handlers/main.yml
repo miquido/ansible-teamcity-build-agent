@@ -1,0 +1,6 @@
+---
+
+- name: restart teamcity-agent
+  service:
+    name: teamcity-agent
+    state: restarted

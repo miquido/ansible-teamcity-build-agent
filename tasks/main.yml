@@ -1,0 +1,5 @@
+---
+
+- include: setup-teamcity-user.yml
+
+- include: teamcity-agent.yml
