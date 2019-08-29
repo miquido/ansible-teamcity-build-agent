@@ -5,3 +5,5 @@ teamcity_agent_server_url: localhost
 teamcity_agent_install_dir: /opt/buildAgent
 teamcity_server_user_name: teamcity
 teamcity_server_user_passwd: teamcity
+needed_packages:
+  - zip

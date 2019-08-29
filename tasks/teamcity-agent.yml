@@ -10,11 +10,9 @@
 
 - name: install dependencies
   apt:
-    name: "{{ item }}"
+    name: "{{ needed_packages }}"
     state: present
     update_cache: yes
-  with_items:
-    - zip
 
 - name: create agent build directory
   file:
