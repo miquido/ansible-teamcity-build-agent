@@ -1,6 +1,8 @@
 ---
 
-- name: restart teamcity-agent
-  service:
+- name: restart TeamCity service
+  systemd:
     name: teamcity-agent
     state: restarted
+    daemon_reload: yes
+    enabled: yes
