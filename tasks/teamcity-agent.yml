@@ -31,12 +31,6 @@
     copy: "no"
   when: _teamcity_agent_package is changed
 
-- name: add TeamCity agent service default configuration
-  template:
-    src: "teamcity-agent.j2"
-    dest: "/etc/default/teamcity-agent"
-    mode: 0644
-
 - name: put TeamCity agent service file (systemd)
   template:
     src: "teamcity-agent.service.j2"
