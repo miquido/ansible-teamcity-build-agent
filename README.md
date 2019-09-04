@@ -1,5 +1,9 @@
 # ansible-teamcity-build-agent
 
+[![Build Status](https://www.travis-ci.org/miquido/ansible-teamcity-build-agent.svg?branch=master)](https://www.travis-ci.org/miquido/ansible-teamcity-build-agent)
+[![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![Twitter URL](https://img.shields.io/twitter/follow/miquido.svg?style=social&label=Follow%20%40Miquido)](https://twitter.com/miquido)
+
 ## Synopsis
 
 Installing and configuring a TeamCity agent.
