@@ -1,0 +1,10 @@
+---
+
+- name: Converge
+  hosts: all
+  become: true
+  vars:
+    teamcity_agent_server_url_protocol: https
+    teamcity_agent_server_url: teamcity.jetbrains.com
+  roles:
+    - role: ansible-teamcity-build-agent

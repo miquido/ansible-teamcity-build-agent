@@ -45,3 +45,10 @@ teamcity_server_user_passwd: teamcity
   roles:
     - ansible-teamcity-build-agent
 ```
+
+## Test the role
+
+Use your shell and put
+```
+molecule test
+```
